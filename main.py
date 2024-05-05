@@ -36,7 +36,6 @@ def check_type(file):
 
     return mime_type[0]
 
-
 def post_media(media, status_check=True):
     """
     maxFileSize:     20  MB\n
