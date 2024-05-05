@@ -47,7 +47,7 @@ def post_media(media, client_id, status_check=True):
     """
     #TODO Add how many left in a day
     imgur_api = "https://api.imgur.com/3/upload?client_id={client_id}".format(client_id=client_id)
-
+dw
     media_type = check_type(media)
     payload = [(media_type, open(media, 'rb'))]
     headers = {
